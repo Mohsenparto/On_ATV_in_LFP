@@ -1,5 +1,6 @@
-%% TFR_variability_EEG
-%
+%% plot_fig7
+
+% TFR_variability_EEG
 % Plots time-frequency representations (TFR) of spectral Mean, SD, and CV
 % for neural LFP data, plus time-course plots per canonical frequency band.
 %
@@ -7,11 +8,8 @@
 %   - Fig7.mat containing: V1, M1, frq, Tt, Tl, frband, bandTitle, fs
 %   - shadedErrorBar.m (Mathworks File Exchange)
 %
-% Outputs:
-%   - Figure with TFR spectrograms (Mean, SD, CV) and per-band time courses
-%
 % Author: moh3enparto@gmail.com
-% Date:   01.04.2026
+% Date:   08.08.2026
 
 clear; close all;
 

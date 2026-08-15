@@ -15,7 +15,7 @@ This repository contains MATLAB scripts for analysing **across-trial variability
 | Script | Description | Figures |
 |--------|-------------|---------|
 | `Fig4.m` | Simulates LFP-like signals under five fixed/random noise mixture conditions and computes ATV–ITV correlations | Fig. 4 |
-| `Fig1f_i_Fig4d_f.m` | Plots example trials, ERP, ATV and ITV from real LFP data; tests effect of amplitude scaling on power CV | Figs. 1, 4 |
+| `Fig1_4.m` | Plots example trials, ERP, ATV and ITV from real LFP data; tests effect of amplitude scaling on power CV | Figs. 1, 4 |
 | `Fig2_3_6_S2.m` | Main analysis: TFR spectrograms (Mean / SD / CV), cross-area ITV–ATV scatter, attention comparisons | Figs. 2, 3, 6 |
 | `Fig7.m` | Plots TFR spectrograms and per-band time courses of Mean, SD, and CV | Fig. 7 |
 
@@ -30,15 +30,15 @@ This repository contains MATLAB scripts for analysing **across-trial variability
 
 ### External dependencies
 - [`shadedErrorBar`](https://uk.mathworks.com/matlabcentral/fileexchange/26311) — Rob Campbell, MATLAB File Exchange  
-  Download and place `shadedErrorBar.m` in the repository folder (or on your MATLAB path).
+  Download and place `shadedErrorBar.m` in the repository folder (or add it to your MATLAB path).
 - `clearex` — clears all variables except specified ones  
-  Available on MATLAB File Exchange or replace with manual `clearvars -except`.
+  Available on the MATLAB File Exchange, or replace with a manual `clearvars -except`.
 
 ---
 
 ## Data
 
-Pre-processed data files are available on https://doi.org/10.5281/zenodo.19428048:
+Pre-processed data files are available on:
 
 | File | Used by |
 |------|---------|

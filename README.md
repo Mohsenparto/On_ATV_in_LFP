@@ -18,6 +18,7 @@ This repository contains MATLAB scripts for analysing **across-trial variability
 | `Fig2.m`   | Plot power and attention comparisons| Fig. 2 |
 | `Fig3_6.m` | Main analysis: TFR spectrograms (Mean / SD / CV), cross-area ITV–ATV scatter | Figs. 3, 6 |
 | `Fig4.m`   | Simulates LFP-like signals under five fixed/random noise mixture conditions and computes ATV–ITV correlations | Fig. 4 |
+| `Fig5.m`   |  Main analysis: TFR spectrograms (Mean / SD / CV) in microelectrode data | Fig. 5 |
 | `Fig7.m`   | Plots TFR spectrograms and per-band time courses of Mean, SD, and CV | Fig. 7 |
 
 ---

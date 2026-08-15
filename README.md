@@ -14,10 +14,11 @@ This repository contains MATLAB scripts for analysing **across-trial variability
 
 | Script | Description | Figures |
 |--------|-------------|---------|
-| `Fig4.m` | Simulates LFP-like signals under five fixed/random noise mixture conditions and computes ATV–ITV correlations | Fig. 4 |
 | `Fig1_4.m` | Plots example trials, ERP, ATV and ITV from real LFP data; tests effect of amplitude scaling on power CV | Figs. 1, 4 |
-| `Fig2_3_6_S2.m` | Main analysis: TFR spectrograms (Mean / SD / CV), cross-area ITV–ATV scatter, attention comparisons | Figs. 2, 3, 6 |
-| `Fig7.m` | Plots TFR spectrograms and per-band time courses of Mean, SD, and CV | Fig. 7 |
+| `Fig2.m`   | Plot power and attention comparisons| Fig. 2 |
+| `Fig3_6.m` | Main analysis: TFR spectrograms (Mean / SD / CV), cross-area ITV–ATV scatter | Figs. 3, 6 |
+| `Fig4.m`   | Simulates LFP-like signals under five fixed/random noise mixture conditions and computes ATV–ITV correlations | Fig. 4 |
+| `Fig7.m`   | Plots TFR spectrograms and per-band time courses of Mean, SD, and CV | Fig. 7 |
 
 ---
 
@@ -38,13 +39,7 @@ This repository contains MATLAB scripts for analysing **across-trial variability
 
 ## Data
 
-Pre-processed data files are available on:
-
-| File | Used by |
-|------|---------|
-| `Fig7.mat` | `Fig7.m` |
-| `Fig1_4_data<band><filt>.mat` | `Fig1f_i_Fig4d_f.m` |
-| `Fig2_3_6_data<monkey><filt><interval><freq>.mat` | `Fig2_3_6_S2.m` |
+Pre-processed data files are available on: Zenodo.org
 
 Download all `.mat` files and place them in the **same directory** as the scripts.
 
@@ -61,21 +56,13 @@ Download all `.mat` files and place them in the **same directory** as the script
 
 3. Run any script directly from the MATLAB editor or command window:
    ```matlab
-   Fig4      		% simulation figures
-   Fig1f_i_Fig4d_f      % Figs. 1 & 4
-   Fig2_3_6_S2     	% Figs. 2, 3 & 6
+   Fig1_4      % Figs. 1 & 4
+   Fig2       		% Fig. 2
+   Fig3_6   	% Figs. 3 & 6
+   Fig4      	% simulation fig. 4
+   Fig5       		% Fig. 5
    Fig7       		% Fig. 7
    ```
-
-4. In `Fig2_3_6_S2.m`, set `analysis_state` to select the figure variant:
-
-   | `analysis_state` | Output |
-   |---|---|
-   | 1 | Fig. 2 — filtered, gamma |
-   | 2 | Fig. 2 — filtered, alpha |
-   | 3 | Figs. 3, 6, 2e — raw, gamma |
-   | 4 | Fig. 2f — raw, change epoch |
-   | 5 | Fig. S2 — monkey 2 |
 
 ---
 

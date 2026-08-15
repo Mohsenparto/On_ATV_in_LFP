@@ -1,4 +1,4 @@
-%%  fig1_fig4_atv_itv_ECoG
+%% plot_fig1_4
 %
 % Plots example LFP trials, ERP, across-trial variability (ATV), and
 % intra-trial variability (ITV). Also examines how power and its
@@ -10,7 +10,7 @@
 %   - shadedErrorBar.m (Mathworks File Exchange)
 %
 % Author: moh3enparto@gmail.com
-% Date:   01.04.2026
+% Date:   08.08.2026
 
 clc; clear all; close all;
 

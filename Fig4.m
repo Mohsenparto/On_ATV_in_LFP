@@ -1,4 +1,4 @@
-%% simulate_signal_conditions
+%% plot_fig4_simulate_signal_conditions
 %
 % Simulates multi-trial LFP-like signals under five senarios that the
 % stimulus SD varies compared to the baseline (Fixation-like period) SD.
@@ -15,7 +15,7 @@
 % Requires: clearex.m (available on Mathworks File Exchange)
 %
 % Author: moh3enparto@gmail.com
-% Date:   01.04.2026
+% Date:   08.08.2026
 
 close all;
 
